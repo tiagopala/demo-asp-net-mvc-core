@@ -30,3 +30,4 @@ C:\Users\Tiago Pala\source\Cursos\AspNetMvcCore\DemoAspNetMvcCore\DemoAspNetMvcC
 C:\Users\Tiago Pala\source\Cursos\AspNetMvcCore\DemoAspNetMvcCore\DemoAspNetMvcCore\obj\Debug\netcoreapp2.2\DemoAspNetMvcCore.dll
 C:\Users\Tiago Pala\source\Cursos\AspNetMvcCore\DemoAspNetMvcCore\DemoAspNetMvcCore\obj\Debug\netcoreapp2.2\DemoAspNetMvcCore.pdb
 C:\Users\Tiago Pala\source\Cursos\AspNetMvcCore\DemoAspNetMvcCore\DemoAspNetMvcCore\obj\Debug\netcoreapp2.2\DemoAspNetMvcCore.csproj.CopyComplete
+C:\Users\Tiago Pala\source\Cursos\AspNetMvcCore\DemoAspNetMvcCore\DemoAspNetMvcCore\obj\Debug\netcoreapp2.2\DemoAspNetMvcCore.csprojAssemblyReference.cache

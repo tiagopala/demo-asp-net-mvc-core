@@ -20,12 +20,13 @@ namespace DemoAspNetMvcCore.Models
         public DateTime DataLancamento { get; set; }
 
         [Required(ErrorMessage = "Preencha o campo Gênero")]
-        [StringLength(30, ErrorMessage = "Máximo de 30 caracteres")]
+        [StringLength(30,  MinimumLength = 5, ErrorMessage = "Mínimo de 5 e Máximo de 30 caracteres")]
         [Display(Name = "Genêro")]
         public string Genero { get; set; }
 
         [Required(ErrorMessage = "O campo Valor é obrigatório")]
         [Range(1,1000, ErrorMessage = "Valor de 1 a 1000")]
+        [RegularExpression(@"[0-9]*$", ErrorMessage = "Somente números")]
         public decimal Valor { get; set; }
 
         [Required(ErrorMessage = "Preencha o campo Avaliação")]

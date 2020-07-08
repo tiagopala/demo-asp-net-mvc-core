@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using DemoAspNetMvcCore.Models;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,17 @@ namespace DemoAspNetMvcCore.Controllers
         public IActionResult Adicionar()
         {
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult Adicionar(Filme filme)
+        {
+            if (ModelState.IsValid)
+            {
+                //
+            }
+
+            return View(filme);
         }
     }
 }
